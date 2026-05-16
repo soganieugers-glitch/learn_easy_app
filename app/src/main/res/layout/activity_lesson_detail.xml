@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/lesson_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Lesson Image" />
+
+            <TextView
+                android:id="@+id/lesson_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson Title"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_blue"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/lesson_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson content goes here"
+                android:textSize="14sp"
+                android:textColor="@color/text_dark"
+                android:layout_marginBottom="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/read_aloud_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Read Aloud"
+        android:backgroundTint="@color/primary_orange"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Back"
+        android:backgroundTint="@color/text_dark"
+        android:textColor="@color/white" />
+
+</LinearLayout>

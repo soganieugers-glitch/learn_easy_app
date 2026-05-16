@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_blue"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/lessons_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Lessons"
+        android:backgroundTint="@color/primary_green"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/quiz_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Quiz"
+        android:backgroundTint="@color/primary_orange"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/flashcards_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Flashcards"
+        android:backgroundTint="@color/primary_purple"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/progress_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Progress"
+        android:backgroundTint="@color/primary_red"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Settings"
+        android:backgroundTint="@color/accent_gray"
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Logout"
+        android:backgroundTint="@color/text_dark"
+        android:textColor="@color/white" />
+
+</LinearLayout>

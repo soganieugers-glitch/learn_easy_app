@@ -1,0 +1,60 @@
+# Gradle files
+.gradle
+build/
+.idea/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio generated files
+.DS_Store
+*.apk
+*.ap_
+*.dex
+*.class
+.classpath
+.project
+.settings/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Generated files
+bin/
+gen/
+out/
+
+# Intellij
+*.iml
+.idea/
+*.name
+
+# Robolectric
+.robolectric/
+
+# Mac
+.DS_Store
+
+# Proguard
+proguard/
+
+# Log Files
+*.log
+
+# Coverage reports
+coverage/
+*.profraw
+*.profdata
+
+# External
+externalNativeBuild/
+
+# Signing keys
+*.jks
+*.keystore
+
+# Build variants
+.externalNativeBuild/

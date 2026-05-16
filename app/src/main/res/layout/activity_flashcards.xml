@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flashcards"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_blue"
+        android:layout_marginBottom="20dp" />
+
+    <FrameLayout
+        android:id="@+id/flashcard_container"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/flashcard_background"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/flashcard_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_blue"
+                android:gravity="center"
+                android:layout_marginBottom="30dp" />
+
+            <TextView
+                android:id="@+id/flashcard_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Answer"
+                android:textSize="16sp"
+                android:textColor="@color/text_dark"
+                android:gravity="center"
+                android:alpha="0.3" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <ImageButton
+            android:id="@+id/previous_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_previous"
+            android:background="@drawable/button_background"
+            android:contentDescription="Previous"
+            android:layout_marginEnd="10dp" />
+
+        <ImageButton
+            android:id="@+id/speak_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_speaker"
+            android:background="@drawable/button_background"
+            android:contentDescription="Speak"
+            android:layout_marginEnd="10dp" />
+
+        <ImageButton
+            android:id="@+id/next_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_next"
+            android:background="@drawable/button_background"
+            android:contentDescription="Next" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/toggle_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Show Answer"
+        android:backgroundTint="@color/primary_purple"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Back"
+        android:backgroundTint="@color/text_dark"
+        android:textColor="@color/white" />
+
+</LinearLayout>

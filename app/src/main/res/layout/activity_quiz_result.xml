@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Complete!"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_blue"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Score: 8/10"
+        android:textSize="20sp"
+        android:textColor="@color/text_dark"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/percentage_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percentage: 80%"
+        android:textSize="18sp"
+        android:textColor="@color/primary_green"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/result_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excellent! Keep it up!"
+        android:textSize="16sp"
+        android:textColor="@color/text_dark"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/retake_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Retake Quiz"
+        android:backgroundTint="@color/primary_orange"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Back to Home"
+        android:backgroundTint="@color/primary_blue"
+        android:textColor="@color/white" />
+
+</LinearLayout>
